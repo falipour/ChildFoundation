@@ -38,7 +38,7 @@
                 </ul>
                 <span class="pull-right">
             <ul class="nav navbar-nav">
-                <li><a href="../../../templates/Admin/Admin_Contact.html" style="color:#7a0134; font-family: 'B Nazanin'; font-size: 20px; alignment: right;"
+                <li><a href="{% url 'admin-contact' %}" style="color:#7a0134; font-family: 'B Nazanin'; font-size: 20px; alignment: right;"
                        onMouseOver="this.style.color='#230007';"
                        onMouseOut="this.style.color='#7a0134'; ">ارتباط با ما</a></li>
                 <li class="dropdown">
@@ -50,12 +50,12 @@
                 style="text-align: right; color:#7a0134; font-family: 'B Nazanin'; font-size: 20px; alignment: right;"
                 onMouseOver="this.style.color='#230007'; this.style.fontWeight='bold';"
                 onMouseOut="this.style.color='#7a0134'; this.style.fontWeight='normal'">
-              <li><a href="../../../templates/Admin/Admin_History.html">تاریخچه</a></li>
-              <li><a href="../../../templates/Admin/Admin_Chart.html">چارت سازمانی</a></li>
-              <li><a href="#">اهداف و دیدگاه ها</a></li>
+              <li><a href="{% url 'admin-history' %}">تاریخچه</a></li>
+              <li><a href="{% url 'admin-chart' %}">چارت سازمانی</a></li>
+              <li><a href="{% url 'admin-goals' %}">اهداف و دیدگاه ها</a></li>
             </ul>
             </li>
-                <li class="active"><a href="../../../templates/Admin/Admin_Home.html"
+                <li class="active"><a href="#"
                                       style="color:#7a0134; font-family: 'B Nazanin'; font-size: 20px; alignment: right;"
                                       onMouseOver="this.style.color='#230007';"
                                       onMouseOut="this.style.color='#7a0134';">بنیاد کودک</a></li>
@@ -74,14 +74,14 @@
     <!--sidebar-->
     <div id="sidebar-wrapper">
         <ul class="sidebar-nav" style="font-family: 'B Mitra'; font-size: 20px; text-align: right;">
-            <li><a href="../../../templates/Admin/Madadkar_Register.html"> &nbsp &nbsp ثبت نام مددکار &nbsp &nbsp </a></li>
-            <li><a href="../../../templates/Admin/Hamyar_Register.html"> &nbsp &nbsp ثبت نام همیار &nbsp &nbsp </a></li>
-            <li><a href="../../../templates/Admin/Admin_edit.html"> &nbsp &nbsp ویرایش اطلاعات کاربران &nbsp &nbsp </a></li>
-            <li><a href="../../../templates/Admin/Admin_delete.html"> &nbsp &nbsp حذف کاربر &nbsp &nbsp </a></li>
-            <li><a href="../../../templates/Admin/Foundation_Pardakht.html"> &nbsp &nbsp پرداخت مستقیم به مددجو &nbsp &nbsp </a></li>
-            <li><a href="../../../templates/Admin/Foundation_Kefalat.html"> &nbsp &nbsp تحت کفالت قرار دادن مستقیم &nbsp &nbsp </a></li>
-            <li><a href="../../../templates/Admin/Foundation_Report.html"> &nbsp &nbsp گزارش از پرداختی‌ها به موسسه &nbsp &nbsp </a></li>
-            <li><a href="../../../templates/Admin/Admin_Madadju_Report.html"> &nbsp &nbsp گزارش از پرداختی‌ها به مددجو &nbsp &nbsp </a></li>
+            <li><a href="Madadkar_Register.html"> &nbsp &nbsp ثبت نام مددکار &nbsp &nbsp </a></li>
+            <li><a href="Hamyar_Register.html"> &nbsp &nbsp ثبت نام همیار &nbsp &nbsp </a></li>
+            <li><a href="Admin_edit.html"> &nbsp &nbsp ویرایش اطلاعات کاربران &nbsp &nbsp </a></li>
+            <li><a href="Admin_delete.html"> &nbsp &nbsp حذف کاربر &nbsp &nbsp </a></li>
+            <li><a href="Foundation_Pardakht.html"> &nbsp &nbsp پرداخت مستقیم به مددجو &nbsp &nbsp </a></li>
+            <li><a href="Foundation_Kefalat.html"> &nbsp &nbsp تحت کفالت قرار دادن مستقیم &nbsp &nbsp </a></li>
+            <li><a href="Foundation_Report.html"> &nbsp &nbsp گزارش از پرداختی‌ها به موسسه &nbsp &nbsp </a></li>
+            <li><a href="Admin_Madadju_Report.html"> &nbsp &nbsp گزارش از پرداختی‌ها به مددجو &nbsp &nbsp </a></li>
             <li><a href="../../../templates/Viewer/Home.html"> &nbsp &nbsp خروج &nbsp &nbsp </a></li>
         </ul>
     </div>

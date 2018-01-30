@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="../sidebar/sidebar.css">
-    <link rel="stylesheet" href="../../modir/static/modir/css/home.css">
+    <link rel="stylesheet" href="../../static/modir/css/sidebar/sidebar.css">
+    <link rel="stylesheet" href="../../static/modir/css/home.css">
 </head>
 <body style="background-color: #3f001f;">
 
@@ -38,7 +38,7 @@
                 </ul>
                 <span class="pull-right">
             <ul class="nav navbar-nav">
-                <li><a href="#" style="color:#7a0134; font-family: 'B Nazanin'; font-size: 20px; alignment: right;"
+                <li><a href="{% url 'admin-contact' %}" style="color:#7a0134; font-family: 'B Nazanin'; font-size: 20px; alignment: right;"
                        onMouseOver="this.style.color='#230007';"
                        onMouseOut="this.style.color='#7a0134'; ">ارتباط با ما</a></li>
                 <li class="dropdown">
@@ -50,16 +50,16 @@
                 style="text-align: right; color:#7a0134; font-family: 'B Nazanin'; font-size: 20px; alignment: right;"
                 onMouseOver="this.style.color='#230007'; this.style.fontWeight='bold';"
                 onMouseOut="this.style.color='#7a0134'; this.style.fontWeight='normal'">
-              <li><a href="../Viewer/History.html">تاریخچه</a></li>
-              <li><a href="../Viewer/Chart.html">چارت سازمانی</a></li>
-              <li><a href="../Viewer/Goals.html">اهداف و دیدگاه ها</a></li>
+              <li><a href="{% url 'admin-history' %}">تاریخچه</a></li>
+              <li><a href="{% url 'admin-chart' %}">چارت سازمانی</a></li>
+              <li><a href="{% url 'admin-goals' %}">اهداف و دیدگاه ها</a></li>
             </ul>
             </li>
-                <li class="active"><a href="../Viewer/Home.html"
+                <li class="active"><a href="#"
                                       style="color:#7a0134; font-family: 'B Nazanin'; font-size: 20px; alignment: right;"
                                       onMouseOver="this.style.color='#230007';"
                                       onMouseOut="this.style.color='#7a0134';">بنیاد کودک</a></li>
-                 <li><img src="../../modir/static/modir/images/cf3.png"
+                 <li><img src="../../static/modir/images/cf3.png"
                           style="width: 50px; height: 50px; opacity: 0.8; padding: 5px; alignment: right;"></li>
 
                 <!--drop down menu-->
@@ -70,6 +70,7 @@
 
         </div>
     </nav>
+
     <!--sidebar-->
     <div id="sidebar-wrapper">
         <ul class="sidebar-nav" style="font-family: 'B Mitra'; font-size: 20px; text-align: right;">
@@ -81,7 +82,7 @@
             <li><a href="Foundation_Kefalat.html"> &nbsp &nbsp تحت کفالت قرار دادن مستقیم &nbsp &nbsp </a></li>
             <li><a href="Foundation_Report.html"> &nbsp &nbsp گزارش از پرداختی‌ها به موسسه &nbsp &nbsp </a></li>
             <li><a href="Admin_Madadju_Report.html"> &nbsp &nbsp گزارش از پرداختی‌ها به مددجو &nbsp &nbsp </a></li>
-            <li><a href="../Viewer/Home.html"> &nbsp &nbsp خروج &nbsp &nbsp </a></li>
+            <li><a href="../../../templates/Viewer/Home.html"> &nbsp &nbsp خروج &nbsp &nbsp </a></li>
         </ul>
     </div>
     <div class="modal fade" id="Register">
