@@ -1,3 +1,6 @@
-from django.db import models
+from karbar.models import *
+
 
 # Create your models here.
+class Admin(MyUser):
+    pass

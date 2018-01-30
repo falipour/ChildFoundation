@@ -1,3 +1,45 @@
-from django.db import models
+from karbar.models import *
+from madadkar.models import Madadkar
 
-# Create your models here.
+
+class Madadju(MyUser):
+    physical_state = models.CharField(max_length=100)
+    age = models.IntegerField()
+    grade = models.CharField(max_length=20)
+    account = models.IntegerField()
+    saving = models.IntegerField()
+    current_madadkar = models.ForeignKey(Madadkar, default=None, blank=True,
+                                         null=True, on_delete=models.SET_NULL)
+
+
+class Need(models.Model):
+    madadju = models.ForeignKey(Madadju, on_delete=models.CASCADE)
+    name = models.CharField(max_length=500)
+
+
+class UrgentNeed(models.Model):
+    madadju = models.ForeignKey(Madadju, on_delete=models.CASCADE)
+    need = models.CharField(max_length=500)
+
+
+class Letter(models.Model):
+    madadju = models.ForeignKey(Madadju, on_delete=models.CASCADE)
+    title = models.CharField(max_length=50)
+    content = models.CharField(max_length=1000)
+    date = models.DateField()
+    receiver_hamyar = models.ForeignKey('hamyar.Hamyar', on_delete=models.DO_NOTHING)
+
+
+# To Admin
+class Message(models.Model):
+    madadju = models.ForeignKey(Madadju, on_delete=models.CASCADE)
+    title = models.CharField(max_length=50)
+    content = models.CharField(max_length=1000)
+    date = models.DateField()
+
+
+class Report(models.Model):
+    madadju = models.ForeignKey(Madadju, on_delete=models.CASCADE)
+    title = models.CharField(max_length=50)
+    content = models.CharField(max_length=1000)
+    date = models.DateField()
