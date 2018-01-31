@@ -8,5 +8,5 @@ urlpatterns = [
     path('chart/', AdminChartView.as_view(), name='admin-chart'),
     path('contact/', AdminContactView.as_view(), name='admin-contact'),
     path('madadkar-register/', AdminMadadkarRegisterView.as_view(), name='admin-madadkar-register'),
-    path()
+    # path()
 ]

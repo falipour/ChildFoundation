@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="../../static/css/home.css">
-    <link rel="stylesheet" href="../../static/css/sidebar/sidebar.css">
+    <link rel="stylesheet" href="../../static/modir/css/home.css">
+    <link rel="stylesheet" href="../../static/modir/css/sidebar/sidebar.css">
 </head>
 <body style="background-color: #3f001f;">
 <div id="wrapper">
@@ -36,7 +36,7 @@
                 </ul>
                 <span class="pull-right">
             <ul class="nav navbar-nav">
-                <li><a href="{% url 'contact' %}"
+                <li><a href="{% url 'admin-contact' %}"
                        style="color:#7a0134; font-family: 'B Nazanin'; font-size: 20px; alignment: right;"
                        onMouseOver="this.style.color='#230007';"
                        onMouseOut="this.style.color='#7a0134'; ">ارتباط با ما</a></li>
@@ -49,12 +49,12 @@
                 style="text-align: right; color:#7a0134; font-family: 'B Nazanin'; font-size: 20px; alignment: right;"
                 onMouseOver="this.style.color='#230007'; this.style.fontWeight='bold';"
                 onMouseOut="this.style.color='#7a0134'; this.style.fontWeight='normal'">
-              <li><a href="{% url 'history' %}">تاریخچه</a></li>
-              <li><a href="{% url 'chart' %}">چارت سازمانی</a></li>
-              <li><a href="{% url 'goals' %}">اهداف و دیدگاه ها</a></li>
+              <li><a href="{% url 'admin-history' %}">تاریخچه</a></li>
+              <li><a href="{% url 'admin-chart' %}">چارت سازمانی</a></li>
+              <li><a href="{% url 'admin-goals' %}">اهداف و دیدگاه ها</a></li>
             </ul>
             </li>
-                <li class="active"><a href="{% url 'home' %}"
+                <li class="active"><a href="{% url 'admin-home' %}"
                                       style="color:#7a0134; font-family: 'B Nazanin'; font-size: 20px; alignment: right;"
                                       onMouseOver="this.style.color='#230007';"
                                       onMouseOut="this.style.color='#7a0134';">بنیاد کودک</a></li>
@@ -72,98 +72,16 @@
     <!--sidebar-->
     <div id="sidebar-wrapper">
         <ul class="sidebar-nav" style="font-family: 'B Mitra'; font-size: 20px; text-align: right;">
-            <li>
-                <button type="button" class="btn" data-toggle="modal" data-target="#Login"
-                        style="color: white; width: 100%; margin: 0;background: #635259 ;font-family: 'B Nazanin'; text-align: right; font-size: 20px">
-                    ورود
-                </button>
-            </li>
-            <li>
-                <button type="button" class="btn" data-toggle="modal" data-target="#Register"
-                        style="color: white; width: 100%; margin: 0;background: #635259 ;font-family: 'B Nazanin'; text-align: right; font-size: 20px">
-                    ثبت نام همیار
-                </button>
-            </li>
-            <li><a href="../../../templates/Viewer/Viewer_Search.html"> &nbsp &nbsp جست و جوی مددجو &nbsp &nbsp </a>
-            </li>
+            <li><a href="Madadkar_Register.html"> &nbsp &nbsp ثبت نام مددکار &nbsp &nbsp </a></li>
+            <li><a href="Hamyar_Register.html"> &nbsp &nbsp ثبت نام همیار &nbsp &nbsp </a></li>
+            <li><a href="Admin_edit.html"> &nbsp &nbsp ویرایش اطلاعات کاربران &nbsp &nbsp </a></li>
+            <li><a href="Admin_delete.html"> &nbsp &nbsp حذف کاربر &nbsp &nbsp </a></li>
+            <li><a href="Foundation_Pardakht.html"> &nbsp &nbsp پرداخت مستقیم به مددجو &nbsp &nbsp </a></li>
+            <li><a href="Foundation_Kefalat.html"> &nbsp &nbsp تحت کفالت قرار دادن مستقیم &nbsp &nbsp </a></li>
+            <li><a href="Foundation_Report.html"> &nbsp &nbsp گزارش از پرداختی‌ها به موسسه &nbsp &nbsp </a></li>
+            <li><a href="Admin_Madadju_Report.html"> &nbsp &nbsp گزارش از پرداختی‌ها به مددجو &nbsp &nbsp </a></li>
+            <li><a href="../../../MySite/templates/MySite/Home.html"> &nbsp &nbsp خروج &nbsp &nbsp </a></li>
         </ul>
-    </div>
-    <div class="modal fade" id="Login">
-        <div class="modal-dialog">
-            <div class="modal-content">
-
-                <!-- header -->
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h3 class="modal-title text-right">ورود</h3>
-                </div>
-
-                <!-- body (form) -->
-                <div class="modal-body">
-                    <form role="form">
-                        <div class="form-group">
-                            <input type="text" class="form-control text-right"
-                                   placeholder="نام کاربری">
-                        </div>
-                        <div class="form-group">
-                            <input type="password" class="form-control text-right"
-                                   placeholder="رمز عبور">
-                        </div>
-
-                    </form>
-                </div>
-
-                <!-- button -->
-                <div class="modal-footer">
-                    <button class="btn btn-primary btn-block" style="background: #850032">ورود</button>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="Register">
-        <div class="modal-dialog">
-            <div class="modal-content">
-
-                <!-- header -->
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h3 class="modal-title text-right">ثبت نام همیار</h3>
-                </div>
-
-                <!-- body (form) -->
-                <div class="modal-body">
-                    <form role="form">
-                        <div class="form-group">
-                            <input type="text" class="form-control text-right"
-                                   placeholder="نام و نام‌خانوادگی">
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control text-right"
-                                   placeholder="آدرس پست الکترونیکی">
-                        </div>
-                        <div class="form-group">
-                            <input type="tel" class="form-control text-right"
-                                   placeholder="شماره تماس">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control text-right"
-                                   placeholder="نام کاربری">
-                        </div>
-                        <div class="form-group">
-                            <input type="password" class="form-control text-right"
-                                   placeholder="کلمه عبور">
-                        </div>
-                    </form>
-                </div>
-
-                <!-- button -->
-                <div class="modal-footer">
-                    <button class="btn btn-primary btn-block" style="background: #850032">ثبت نام</button>
-                </div>
-
-            </div>
-        </div>
     </div>
 
     {% block content %}
