@@ -21,4 +21,5 @@ urlpatterns = [
     path('seereq/',madadkar.views.seereq,name='seereq'),
     path('success/',madadkar.views.success,name='success'),
     path('taaligh/',madadkar.views.taaligh,name='taaligh'),
+
 ]
