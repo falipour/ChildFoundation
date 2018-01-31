@@ -1,28 +1,28 @@
 from django.shortcuts import render
 
 def madadjuhome(request):
-    render(request,"../templates/madadju/madadju.html")
+    return render(request, 'madadju.html')
 
 def madadjugoal(request):
-    render(request,"../templates/madadju/madadju-goals.html")
+    return render(request, 'madadju-goals.html')
 
 def madadjuhistory(request):
-    render(request,"../templates/madadju/madadju-history.html")
+    return render(request, "madadju-history.html")
 
 def madadjuchart(request):
-    render(request,"../templates/madadju/madadju-chart.html")
+    return render(request, "madadju-chart.html")
 
 def madadjucontact(request):
-    render(request,"../templates/madadju/madadju-contact.html")
+    return render(request, "madadju-contact.html")
 
 def madadkarchange(request):
-    render(request,"../templates/madadju/madadkarchange.html")
+    return render(request, "madadkarchange.html")
 
 def madadjuprofile(request):
-    render(request,"../templates/madadju/profile.html")
+    return render(request, "profile.html")
 
 def madadjumsg(request):
-    render(request,"../templates/madadju/sendmsg.html")
+    return render(request, "sendmsg.html")
 
-def madadjurequest(request):
-    render(request,"../templates/madadju/sendreq.html")
+def madadjureq(request):
+    return render(request, "sendreq.html")
