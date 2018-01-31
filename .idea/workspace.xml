@@ -1,9 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d72e8e3-3e14-4646-94e8-13905c300762" name="Default" comment="URLS">
+    <list default="true" id="2d72e8e3-3e14-4646-94e8-13905c300762" name="Default" comment="">
+<<<<<<< HEAD
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modir/templates/modir/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MySite/forms.py" afterPath="$PROJECT_DIR$/MySite/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MySite/models.py" afterPath="$PROJECT_DIR$/MySite/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MySite/templates/MySite/Contact.html" afterPath="$PROJECT_DIR$/MySite/templates/MySite/Contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MySite/templates/MySite/base.html" afterPath="$PROJECT_DIR$/MySite/templates/MySite/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MySite/views.py" afterPath="$PROJECT_DIR$/MySite/views.py" />
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hamyar/templates/Base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hamyar/templates/Ehda.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hamyar/templates/Ehda_Receipt.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hamyar/templates/Enseraf.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hamyar/templates/Entekhab.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hamyar/templates/Hamyar_Chart.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hamyar/templates/Hamyar_Contact.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hamyar/templates/Hamyar_Goals.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hamyar/templates/Hamyar_History.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hamyar/templates/Hamyar_Home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hamyar/templates/Letters_Box.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hamyar/templates/Madadjoo_Contact.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hamyar/templates/Madadjoo_List.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hamyar/templates/Pay.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hamyar/templates/Pay_Receipt.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hamyar/templates/Search.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hamyar/templates/Send_Message.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hamyar/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ChildFoundation.iml" afterPath="$PROJECT_DIR$/.idea/ChildFoundation.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hamyar/views.py" afterPath="$PROJECT_DIR$/hamyar/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modir/urls.py" afterPath="$PROJECT_DIR$/modir/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/Hamyar/madadjooContact.html" afterPath="$PROJECT_DIR$/templates/Hamyar/madadjooContact.html" />
+>>>>>>> 510f2c6e0264bd04af0222cf63b62e8e1e03f53d
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,11 +49,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MySite/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MySite/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="95" column="39" lean-forward="true" selection-start-line="95" selection-start-column="39" selection-end-line="95" selection-end-column="39" />
+=======
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hamyar/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
               <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+>>>>>>> 510f2c6e0264bd04af0222cf63b62e8e1e03f53d
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -32,37 +82,55 @@
       <file leaf-file-name="Enseraf.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hamyar/templates/Enseraf.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="255">
+              <caret line="65" column="62" lean-forward="true" selection-start-line="65" selection-start-column="62" selection-end-line="65" selection-end-column="62" />
+              <folding>
+                <element signature="e#3300#3396#0#HTML" expanded="true" />
+              </folding>
+=======
             <state relative-caret-position="883">
               <caret line="62" column="14" lean-forward="false" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+              <folding />
+>>>>>>> 510f2c6e0264bd04af0222cf63b62e8e1e03f53d
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modir/templates/modir/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+=======
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hamyar/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="59" lean-forward="true" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+>>>>>>> 510f2c6e0264bd04af0222cf63b62e8e1e03f53d
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MySite/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="22" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="10" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hamyar/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="59" lean-forward="false" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modir/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+=======
+>>>>>>> 510f2c6e0264bd04af0222cf63b62e8e1e03f53d
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -79,6 +147,7 @@
       <find>modir</find>
       <find>href</find>
       <find>img</find>
+      <find>font</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -103,7 +172,6 @@
         <option value="$PROJECT_DIR$/modir/templates/modir/Madadkar_Register.html" />
         <option value="$PROJECT_DIR$/modir/forms.py" />
         <option value="$PROJECT_DIR$/MySite/admin.py" />
-        <option value="$PROJECT_DIR$/MySite/forms.py" />
         <option value="$PROJECT_DIR$/ChildFoundation/urls.py" />
         <option value="$PROJECT_DIR$/modir/views.py" />
         <option value="$PROJECT_DIR$/ChildFoundation/settings.py" />
@@ -112,9 +180,14 @@
         <option value="$PROJECT_DIR$/MySite/templates/MySite/History.html" />
         <option value="$PROJECT_DIR$/MySite/templates/MySite/Goals.html" />
         <option value="$PROJECT_DIR$/modir/templates/modir/Admin_Chart.html" />
+        <option value="$PROJECT_DIR$/MySite/urls.py" />
         <option value="$PROJECT_DIR$/MySite/templates/MySite/base.html" />
         <option value="$PROJECT_DIR$/MySite/views.py" />
+        <option value="$PROJECT_DIR$/MySite/models.py" />
+        <option value="$PROJECT_DIR$/MySite/forms.py" />
         <option value="$PROJECT_DIR$/MySite/templates/MySite/Contact.html" />
+<<<<<<< HEAD
+=======
         <option value="$PROJECT_DIR$/MySite/urls.py" />
         <option value="$PROJECT_DIR$/hamyar/templates/base.html" />
         <option value="$PROJECT_DIR$/hamyar/templates/Base.html" />
@@ -135,9 +208,10 @@
         <option value="$PROJECT_DIR$/hamyar/templates/Receipt.html" />
         <option value="$PROJECT_DIR$/hamyar/templates/Pay_Receipt.html" />
         <option value="$PROJECT_DIR$/hamyar/templates/Search.html" />
+        <option value="$PROJECT_DIR$/modir/urls.py" />
         <option value="$PROJECT_DIR$/hamyar/views.py" />
         <option value="$PROJECT_DIR$/hamyar/urls.py" />
-        <option value="$PROJECT_DIR$/modir/urls.py" />
+>>>>>>> 510f2c6e0264bd04af0222cf63b62e8e1e03f53d
       </list>
     </option>
   </component>
@@ -201,18 +275,43 @@
             <path>
               <item name="ChildFoundation" type="b2602c69:ProjectViewProjectNode" />
               <item name="ChildFoundation" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="modir" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChildFoundation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChildFoundation" type="462c0819:PsiDirectoryNode" />
+              <item name="modir" type="462c0819:PsiDirectoryNode" />
+=======
               <item name="hamyar" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 510f2c6e0264bd04af0222cf63b62e8e1e03f53d
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ChildFoundation" type="b2602c69:ProjectViewProjectNode" />
               <item name="ChildFoundation" type="462c0819:PsiDirectoryNode" />
               <item name="modir" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="modir" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChildFoundation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChildFoundation" type="462c0819:PsiDirectoryNode" />
+              <item name="MySite" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> 510f2c6e0264bd04af0222cf63b62e8e1e03f53d
             </path>
             <path>
               <item name="ChildFoundation" type="b2602c69:ProjectViewProjectNode" />
               <item name="ChildFoundation" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChildFoundation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChildFoundation" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="Hamyar" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -228,8 +327,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/MySite" />
       <recent name="$PROJECT_DIR$/modir/templates/modir" />
+      <recent name="$PROJECT_DIR$/MySite" />
       <recent name="$PROJECT_DIR$/modir/static/modir/css" />
       <recent name="$PROJECT_DIR$/templates" />
     </key>
@@ -301,18 +400,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+=======
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
+>>>>>>> 510f2c6e0264bd04af0222cf63b62e8e1e03f53d
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25416666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3823934" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15818432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4099037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25444266" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53645116" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> 510f2c6e0264bd04af0222cf63b62e8e1e03f53d
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39520958" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39614856" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -331,20 +444,24 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="URLS" />
-    <option name="LAST_COMMIT_MESSAGE" value="URLS" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/MySite/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+          <folding />
+=======
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/forms/models.py" />
     <entry file="file://$PROJECT_DIR$/karbar/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+>>>>>>> 510f2c6e0264bd04af0222cf63b62e8e1e03f53d
         </state>
       </provider>
     </entry>
@@ -519,6 +636,9 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/modir/templates/modir/Madadkar_Register.html">
+=======
     <entry file="file://$PROJECT_DIR$/hamyar/templates/Hamyar_Chart.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -528,6 +648,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hamyar/templates/Hamyar_Contact.html">
+>>>>>>> 510f2c6e0264bd04af0222cf63b62e8e1e03f53d
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="737">
           <caret line="201" column="7" lean-forward="false" selection-start-line="201" selection-start-column="7" selection-end-line="201" selection-end-column="7" />
@@ -595,6 +716,9 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/MySite/tests.py">
+=======
     <entry file="file://$PROJECT_DIR$/hamyar/templates/Letters_Box.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -612,6 +736,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/Hamyar/madadjoo-list.html">
+>>>>>>> 510f2c6e0264bd04af0222cf63b62e8e1e03f53d
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -627,6 +752,9 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/MySite/static/css/sidebar/sidebar.css">
+=======
     <entry file="file://$PROJECT_DIR$/hamyar/templates/Madadjoo_List.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -636,6 +764,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/Hamyar/messageSending.html">
+>>>>>>> 510f2c6e0264bd04af0222cf63b62e8e1e03f53d
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -651,7 +780,21 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/modir/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modir/templates/modir/Admin_Home.html">
+=======
     <entry file="file://$PROJECT_DIR$/hamyar/templates/Send_Message.html">
+>>>>>>> 510f2c6e0264bd04af0222cf63b62e8e1e03f53d
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
@@ -664,6 +807,16 @@
         <state relative-caret-position="100">
           <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modir/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -691,14 +844,71 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/MySite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="60" lean-forward="true" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChildFoundation/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="35" column="11" lean-forward="false" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+=======
     <entry file="file://$PROJECT_DIR$/hamyar/templates/Search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+>>>>>>> 510f2c6e0264bd04af0222cf63b62e8e1e03f53d
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/modir/templates/modir/form-template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="46" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="46" />
+          <folding>
+            <element signature="e#200#222#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MySite/templates/MySite/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="32" column="141" lean-forward="false" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="141" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MySite/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="10" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MySite/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MySite/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="95" column="39" lean-forward="true" selection-start-line="95" selection-start-column="39" selection-end-line="95" selection-end-column="39" />
+=======
     <entry file="file://$PROJECT_DIR$/hamyar/templates/Enseraf.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="883">
@@ -711,29 +921,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+>>>>>>> 510f2c6e0264bd04af0222cf63b62e8e1e03f53d
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/MySite/templates/MySite/Contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="65" column="62" lean-forward="true" selection-start-line="65" selection-start-column="62" selection-end-line="65" selection-end-column="62" />
+          <folding>
+            <element signature="e#3300#3396#0#HTML" expanded="true" />
+=======
     <entry file="file://$PROJECT_DIR$/hamyar/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="4" column="59" lean-forward="false" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+          <caret line="4" column="59" lean-forward="true" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+>>>>>>> 510f2c6e0264bd04af0222cf63b62e8e1e03f53d
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modir/urls.py">
+    <entry file="file://$PROJECT_DIR$/modir/templates/modir/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
