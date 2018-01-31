@@ -38,7 +38,8 @@
                 </ul>
                 <span class="pull-right">
             <ul class="nav navbar-nav">
-                <li><a href="{% url 'admin-contact' %}" style="color:#7a0134; font-family: 'B Nazanin'; font-size: 20px; alignment: right;"
+                <li><a href="{% url 'admin-contact' %}"
+                       style="color:#7a0134; font-family: 'B Nazanin'; font-size: 20px; alignment: right;"
                        onMouseOver="this.style.color='#230007';"
                        onMouseOut="this.style.color='#7a0134'; ">ارتباط با ما</a></li>
                 <li class="dropdown">
@@ -138,49 +139,20 @@
 
                         <h3 style="font-family: 'B Nazanin';">ثبت نام مددکار</h3>
                         <br>
-                        <form style="font-family: 'B Nazanin'; font-size: 20px;">
+                        <form style="font-family: 'B Nazanin'; font-size: 20px;" action=""
+                              method="post" enctype="multipart/form-data">
+                            {% csrf_token %}
+                            {% include 'modir/form-template.html' %}
+                            <br>
                             <div class="form-group">
-                                <input type="text" class="form-control text-right"
-                                       placeholder="نام و نام‌خانوادگی">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control text-right"
-                                       placeholder="آدرس پست الکترونیکی">
-                            </div>
-                            <div class="form-group">
-                                <input type="tel" class="form-control text-right"
-                                       placeholder="شماره تماس">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control text-right"
-                                       placeholder="نام کاربری">
-                            </div>
-                            <div class="form-group">
-                                <input type="password" class="form-control text-right"
-                                       placeholder="کلمه عبور">
-                            </div>
-                        </form>
-                        <div class="modal-footer">
-                            <button class="btn btn-primary btn-block" data-toggle="modal"
+                                <div class="col-sm-offset-7 col-sm-12">
+                                    <button class="btn btn-primary btn-block" data-toggle="modal" type="submit"
                                     data-target="#Madadkar_Register" style="background: #850032; width: 100px">ثبت نام
                             </button>
-                        </div>
-                        <div class="modal fade" id="Madadkar_Register">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-
-
-                                    <!-- body (form) -->
-                                    <div class="modal-body">
-                                        <p class="text-right">
-                                            مددکار جدید به لیست مددکاران اضافه شد
-                                        </p>
-                                    </div>
-
-
                                 </div>
                             </div>
-                        </div>
+
+                        </form>
                     </div>
                 </div>
             </div>

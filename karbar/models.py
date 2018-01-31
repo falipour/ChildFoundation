@@ -3,8 +3,11 @@ from django.contrib.auth.models import User
 
 
 class MyUser(models.Model):
-    user = models.OneToOneField(User, on_delete=models.CASCADE)
-    user_type = models.IntegerField(choices={(0, 'modir'), (1, 'madadkar'), (2, 'hamyar'), (3, 'madadju')})
+    username = models.CharField(max_length=30, primary_key=True, default='')
+    first_name = models.CharField(max_length=30, default='')
+    last_name = models.CharField(max_length=30, default='')
+    email = models.EmailField(default='')
+    password = models.CharField(max_length=10, default='')
     national_id = models.IntegerField(unique=True, blank=True)
 
     # address
@@ -15,5 +18,3 @@ class MyUser(models.Model):
 
     phone_number = models.IntegerField()
 
-    def __str__(self):
-        return self.user.first_name + " " + self.user.last_name
