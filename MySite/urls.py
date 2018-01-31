@@ -10,7 +10,7 @@ urlpatterns = [
     path('modir/', include('modir.urls'), name='modir'),
     path('', home, name='home'),
     path('chart/', chart, name='chart'),
-    path('contact/', contact, name='contact'),
     path('goals/', goals, name='goals'),
     path('history/', history, name='history'),
+    path('contact/', ContactView.as_view(), name='contact'),
 ]
