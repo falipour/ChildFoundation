@@ -6,9 +6,7 @@ from karbar.views import login
 
 def home(request):
     # TODO
-    if request.method == 'POST':
-        if request.POST.get('submit') == 'ورود':
-            return login(request)
+    # if request.method == 'POST':
         # elif request.POST.get('submit') == 'ثبت نام':
         #     return signup(request)
         # elif request.POST.get('submit') == 'ثبت نام مجتمع':
@@ -20,9 +18,9 @@ def home(request):
 
 def chart(request):
     # TODO
-    if request.method == 'POST':
-        if request.POST.get('submit') == 'ورود':
-            return login(request)
+    # if request.method == 'POST':
+    #     if request.POST.get('submit') == 'ورود':
+    #         return login(request)
     #     elif request.POST.get('submit') == 'ثبت نام':
     #         return signup(request)
     #     elif request.POST.get('submit') == 'ثبت نام مجتمع':
@@ -34,9 +32,9 @@ def chart(request):
 
 def goals(request):
     # TODO
-    if request.method == 'POST':
-        if request.POST.get('submit') == 'ورود':
-            return login(request)
+    # if request.method == 'POST':
+    #     if request.POST.get('submit') == 'ورود':
+    #         return login(request)
     #     elif request.POST.get('submit') == 'ثبت نام':
     #         return signup(request)
     #     elif request.POST.get('submit') == 'ثبت نام مجتمع':
@@ -48,9 +46,9 @@ def goals(request):
 
 def history(request):
     # TODO
-    if request.method == 'POST':
-        if request.POST.get('submit') == 'ورود':
-            return login(request)
+    # if request.method == 'POST':
+    #     if request.POST.get('submit') == 'ورود':
+    #         return login(request)
     #     elif request.POST.get('submit') == 'ثبت نام':
     #         return signup(request)
     #     elif request.POST.get('submit') == 'ثبت نام مجتمع':
@@ -62,9 +60,9 @@ def history(request):
 
 def contact(request):
     # TODO
-    if request.method == 'POST':
-        if request.POST.get('submit') == 'ورود':
-            return login(request)
+    # if request.method == 'POST':
+    #     if request.POST.get('submit') == 'ورود':
+    #         return login(request)
     #     elif request.POST.get('submit') == 'ثبت نام':
     #         return signup(request)
     #     elif request.POST.get('submit') == 'ثبت نام مجتمع':

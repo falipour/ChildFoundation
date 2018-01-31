@@ -1,6 +1,7 @@
 from django.conf.urls import url, include
 from django.urls import path
 from .views import *
+from karbar.views import login
 
 urlpatterns = [
     # TODO
@@ -13,4 +14,5 @@ urlpatterns = [
     path('goals/', goals, name='goals'),
     path('history/', history, name='history'),
     path('contact/', ContactView.as_view(), name='contact'),
+    path('login/', login, name='login'),
 ]
