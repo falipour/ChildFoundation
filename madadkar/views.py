@@ -1,52 +1,52 @@
 from django.shortcuts import render
 
 def madadkarhome(request):
-    return render(request,"home.html")
+    return render(request, "madadkar/home.html")
 
 def madadkargoal(request):
-    return render(request,"madadju-goals.html")
+    return render(request,"madadkar/Goals.html")
 
 def madadkarhistory(request):
-    return render(request,"madadju-history.html")
+    return render(request,"madadkar/History.html")
 
 def madadkarchart(request):
-    return render(request,"madadju-chart.html")
+    return render(request,"madadkar/Chart.html")
 
 def madadkarcontact(request):
-    return render(request,"madadju-contact.html")
+    return render(request,"madadkar/Contact.html")
 
 def madadkarprofile(request):
-    return render(request,"profile.html")
+    return render(request,"madadkar/profile.html")
 
 def editmadadju(request):
-    return render(request,"edit-madadju.html")
+    return render(request, "madadkar/edit-madadju.html")
 
 def editneed(request):
-    return render(request,"editneed.html")
+    return render(request, "madadkar/editneed.html")
 
 def instantneed(request):
-    return render(request,"instantneed.html")
+    return render(request, "madadkar/instantneed.html")
 
 def madadjuregister(request):
-    return render(request,"madadju-register.html")
+    return render(request, "madadkar/madadju-register.html")
 
 def managesaving(request):
-    return render(request,"managesaving.html")
+    return render(request, "madadkar/managesaving.html")
 
 def receipt(request):
-    return render(request,"receipt.html")
+    return render(request, "madadkar/receipt.html")
 
 def report(request):
-    return render(request,"report.html")
+    return render(request, "madadkar/report.html")
 
 def seemsg(request):
-    return render(request,"seemsg.html")
+    return render(request, "madadkar/seemsg.html")
 
 def seereq(request):
-    return render(request,"seerequests.html")
+    return render(request, "madadkar/seerequests.html")
 
 def success(request):
-    return render(request,"success.html")
+    return render(request, "madadkar/success.html")
 
 def taaligh(request):
-    return render(request,"taaligh.html")
+    return render(request, "madadkar/taaligh.html")
