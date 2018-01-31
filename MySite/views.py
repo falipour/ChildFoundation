@@ -33,3 +33,45 @@ def chart(request):
     #     else:
     #         return forget_password(request)
     return render(request, 'MySite/Chart.html')
+
+
+def contact(request):
+    # TODO
+    # if request.method == 'POST':
+    #     if request.POST.get('submit') == 'ورود':
+    #         return login(request)
+    #     elif request.POST.get('submit') == 'ثبت نام':
+    #         return signup(request)
+    #     elif request.POST.get('submit') == 'ثبت نام مجتمع':
+    #         return complexRegister(request)
+    #     else:
+    #         return forget_password(request)
+    return render(request, 'MySite/Contact.html')
+
+
+def goals(request):
+    # TODO
+    # if request.method == 'POST':
+    #     if request.POST.get('submit') == 'ورود':
+    #         return login(request)
+    #     elif request.POST.get('submit') == 'ثبت نام':
+    #         return signup(request)
+    #     elif request.POST.get('submit') == 'ثبت نام مجتمع':
+    #         return complexRegister(request)
+    #     else:
+    #         return forget_password(request)
+    return render(request, 'MySite/Goals.html')
+
+
+def history(request):
+    # TODO
+    # if request.method == 'POST':
+    #     if request.POST.get('submit') == 'ورود':
+    #         return login(request)
+    #     elif request.POST.get('submit') == 'ثبت نام':
+    #         return signup(request)
+    #     elif request.POST.get('submit') == 'ثبت نام مجتمع':
+    #         return complexRegister(request)
+    #     else:
+    #         return forget_password(request)
+    return render(request, 'MySite/History.html')

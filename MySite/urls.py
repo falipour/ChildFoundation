@@ -9,5 +9,8 @@ urlpatterns = [
     # path('madadkar/', include('hamyar.urls', namespace="madadkar")),
     path('modir/', include('modir.urls'), name='modir'),
     path('', home, name='home'),
-    path('', chart, name='chart'),
+    path('chart/', chart, name='chart'),
+    path('contact/', contact, name='contact'),
+    path('goals/', goals, name='goals'),
+    path('history/', history, name='history'),
 ]
