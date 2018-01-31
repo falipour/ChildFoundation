@@ -2,10 +2,13 @@ from django.urls import path
 from .views import *
 
 urlpatterns = [
-    path('', AdminHomeView.as_view(), name='admin-home'),
-    path('goals/', AdminGoalsView.as_view(), name='admin-goals'),
-    path('history/', AdminHistoryView.as_view(), name='admin-history'),
-    path('chart/', AdminChartView.as_view(), name='admin-chart'),
-    path('contact/', AdminContactView.as_view(), name='admin-contact'),
-    path('madadkar-register/', AdminMadadkarRegisterView.as_view(), name='admin-madadkar-register'),
+    path('', HamyarHomeView.as_view(), name='hamyar-home'),
+    path('goals/', HamyarGoalsView.as_view(), name='hamyar-goals'),
+    path('history/', HamyarHistoryView.as_view(), name='hamyar-history'),
+    path('chart/', HamyarChartView.as_view(), name='hamyar-chart'),
+    path('contact/', HamyarContactView.as_view(), name='hamyar-contact'),
+    path('enseraf/', EnserafView.as_view(), name='enseraf'),
+    path('entekhab/', EntekhabView.as_view(), name='entekhab'),
+    path('ehda/', EhdaView.as_view(), name='ehda'),
+    path('letters/', LettersBoxView.as_view(), name='letters-box'),
 ]
