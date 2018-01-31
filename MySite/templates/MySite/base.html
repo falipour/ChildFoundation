@@ -37,7 +37,7 @@
                 </ul>
                 <span class="pull-right">
             <ul class="nav navbar-nav">
-                <li><a href="../../../templates/Viewer/Contact.html"
+                <li><a href="{% url 'contact' %}"
                        style="color:#7a0134; font-family: 'B Nazanin'; font-size: 20px; alignment: right;"
                        onMouseOver="this.style.color='#230007';"
                        onMouseOut="this.style.color='#7a0134'; ">ارتباط با ما</a></li>
@@ -50,12 +50,12 @@
                 style="text-align: right; color:#7a0134; font-family: 'B Nazanin'; font-size: 20px; alignment: right;"
                 onMouseOver="this.style.color='#230007'; this.style.fontWeight='bold';"
                 onMouseOut="this.style.color='#7a0134'; this.style.fontWeight='normal'">
-              <li><a href="../../../templates/Viewer/History.html">تاریخچه</a></li>
-              <li><a href="Chart.html">چارت سازمانی</a></li>
-              <li><a href="../../../templates/Viewer/Goals.html">اهداف و دیدگاه ها</a></li>
+              <li><a href="{% url 'history' %}">تاریخچه</a></li>
+              <li><a href="{% url 'chart' %}">چارت سازمانی</a></li>
+              <li><a href="{% url 'goals' %}">اهداف و دیدگاه ها</a></li>
             </ul>
             </li>
-                <li class="active"><a href="#"
+                <li class="active"><a href="{% url 'home' %}"
                                       style="color:#7a0134; font-family: 'B Nazanin'; font-size: 20px; alignment: right;"
                                       onMouseOver="this.style.color='#230007';"
                                       onMouseOut="this.style.color='#7a0134';">بنیاد کودک</a></li>
