@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>چارت سازمانی</title>
+    <title>بنیاد کودک</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="../sidebar/sidebar.css">
-    <link rel="stylesheet" href="../../modir/static/modir/css/home.css">
+    <link rel="stylesheet" href="../../static/css/home.css">
+    <link rel="stylesheet" href="../../static/css/sidebar/sidebar.css">
+    <link rel="stylesheet" href="../../../modir/static/modir/css/home.css">
 </head>
 <body style="background-color: #3f001f;">
-
-
 <div id="wrapper">
 
     <nav class="navbar" style="border: black solid 2px; padding: 0px; margin: 0px">
@@ -38,7 +37,7 @@
                 </ul>
                 <span class="pull-right">
             <ul class="nav navbar-nav">
-                <li><a href="Contact.html"
+                <li><a href="../../../templates/Viewer/Contact.html"
                        style="color:#7a0134; font-family: 'B Nazanin'; font-size: 20px; alignment: right;"
                        onMouseOver="this.style.color='#230007';"
                        onMouseOut="this.style.color='#7a0134'; ">ارتباط با ما</a></li>
@@ -51,16 +50,16 @@
                 style="text-align: right; color:#7a0134; font-family: 'B Nazanin'; font-size: 20px; alignment: right;"
                 onMouseOver="this.style.color='#230007'; this.style.fontWeight='bold';"
                 onMouseOut="this.style.color='#7a0134'; this.style.fontWeight='normal'">
-              <li><a href="History.html">تاریخچه</a></li>
-              <li><a href="#">چارت سازمانی</a></li>
-              <li><a href="Goals.html">اهداف و دیدگاه ها</a></li>
+              <li><a href="../../../templates/Viewer/History.html">تاریخچه</a></li>
+              <li><a href="Chart.html">چارت سازمانی</a></li>
+              <li><a href="../../../templates/Viewer/Goals.html">اهداف و دیدگاه ها</a></li>
             </ul>
             </li>
-                <li class="active"><a href="Home.html"
+                <li class="active"><a href="#"
                                       style="color:#7a0134; font-family: 'B Nazanin'; font-size: 20px; alignment: right;"
                                       onMouseOver="this.style.color='#230007';"
                                       onMouseOut="this.style.color='#7a0134';">بنیاد کودک</a></li>
-                 <li><img src="../../modir/static/modir/images/cf3.png"
+                 <li><img src="../../static/images/cf3.png"
                           style="width: 50px; height: 50px; opacity: 0.8; padding: 5px; alignment: right;"></li>
 
                 <!--drop down menu-->
@@ -71,7 +70,6 @@
 
         </div>
     </nav>
-
     <!--sidebar-->
     <div id="sidebar-wrapper">
         <ul class="sidebar-nav" style="font-family: 'B Mitra'; font-size: 20px; text-align: right;">
@@ -87,7 +85,8 @@
                     ثبت نام همیار
                 </button>
             </li>
-            <li><a href="Viewer_Search.html"> &nbsp &nbsp جست و جوی مددجو &nbsp &nbsp </a></li>
+            <li><a href="../../../templates/Viewer/Viewer_Search.html"> &nbsp &nbsp جست و جوی مددجو &nbsp &nbsp </a>
+            </li>
         </ul>
     </div>
     <div class="modal fade" id="Login">
@@ -167,23 +166,6 @@
             </div>
         </div>
     </div>
-
-    <!--page content-->
-    <div id="page-content-wrapper" class="offset8">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div style="background-color: white; margin: 5%; padding: 5%; border-radius: 10px;">
-                        <h1 class="text-right" id="bonyad">چارت سازمانی</h1>
-                        <img src="../../modir/static/modir/images/chart.jpg" class="img-responsive" style="margin: 50px auto">
-                        <br>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!--menue toggle script-->
     <script>
         $("#menu-toggle").click(function (e) {

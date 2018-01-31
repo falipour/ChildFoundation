@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'madadju',
     'madadkar',
     'modir',
+    'MySite',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -117,10 +118,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = (
+STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
-)
-
+    '',
+]
 
 # TODO
 # EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
