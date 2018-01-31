@@ -1,0 +1,49 @@
+{% extends 'MySite/base.html' %}
+
+{% block title %}
+    ارتباط با ما
+{% endblock %}
+
+
+
+{% block content %}
+    <!--page content-->
+    <div id="page-content-wrapper" class="offset8">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div style="background-color: white; margin: 5%; padding: 5%; border-radius: 10px;">
+
+                        <!-- header -->
+                        <div class="modal-header">
+                            <h3 class="modal-title text-right">ثبت نام همیار</h3>
+                        </div>
+
+                        <!-- body (form) -->
+                        <div class="modal-body text-right">
+                            <form role="form" method="post">
+                                {% csrf_token %}
+                                {% for field in form %}
+                                    {{ field }}
+                                    <label class="label label-default"
+                                           style="direction: rtl; font-family: 'B Mitra'; font-weight:bold; font-size: 13px; padding: 5px;">{{ field.label_tag }}</label>
+
+                                    <br>
+                                {% endfor %}
+                                <br>
+                                <!-- button -->
+                                <div class="modal-footer">
+                                    <button type="submit" class="btn btn-primary btn-block"
+                                            style="background: #850032"> ثبت‌نام
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+{% endblock %}

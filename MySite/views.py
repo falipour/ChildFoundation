@@ -2,6 +2,8 @@ from django.views.generic import TemplateView
 from django.shortcuts import render
 from .forms import ContactForm
 from karbar.views import login
+from hamyar.forms import HamyarForm
+from karbar.forms import UserForm
 
 
 def home(request):
@@ -96,14 +98,14 @@ class ContactView(TemplateView):
 
 
 class HamyarView(TemplateView):
-    template_name = 'MySite/Contact.html'
+    template_name = 'MySite/Hamyar_Register.html'
 
     def get(self, request, **kwargs):
-        form = ContactForm()
+        form = UserForm()
         return render(request, self.template_name, {'form': form})
 
     def post(self, request):
-        form = ContactForm(request.POST)
+        form = UserForm(request.POST)
         text = None
         if form.is_valid():
             # post = form.save(commit=False)
@@ -111,7 +113,7 @@ class HamyarView(TemplateView):
             # post.save()
             form.save()
             text = form.cleaned_data
-            form = ContactForm()
+            form = HamyarForm()
 
         args = {'form': form, 'text': text}
         return render(request, self.template_name, args)
