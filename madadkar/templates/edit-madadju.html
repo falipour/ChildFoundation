@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>مدیریت پس انداز مددجو</title>
+    <title>تغییر وضعیت مددجو</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -53,7 +53,7 @@
               <li><a href="Goals.html">اهداف و دیدگاه ها</a></li>
             </ul>
             </li>
-                <li class="active"><a href="Home.html"
+                <li class="active"><a href="base.html"
                                       style="color:#7a0134; font-family: 'B Nazanin'; font-size: 20px; alignment: right;"
                                       onMouseOver="this.style.color='#230007';"
                                       onMouseOut="this.style.color='#7a0134';">بنیاد کودک</a></li>
@@ -93,16 +93,49 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div style="background-color: white; margin: 5%; padding: 5%; border-radius: 10px; text-align: right;">
-                       <h1 style="font-family: 'B Nazanin';">مدیریت پس انداز مددجو</h1>
-                        <br>
-                        <form style="font-family: 'B Nazanin'; font-size: 20px;">
-                            <p style="color: #7a0134;"> &nbsp&nbspکد ملی
+                       <h1 style="font-family: 'B Nazanin';">تغییر وضعیت مددجو</h1>
+                        <form role="form" style="font-family: 'B Nazanin'; font-size: 20px;">
+                            <p style="color:#7a0134;">
+                            &nbsp&nbspنام
                             <br>
-                                <button type="button" class="btn" data-toggle="modal" data-target="#popUpWindow" style="color: white; background-color: #3f001f; border-radius: 8px; font-family: 'B Nazanin'; font-size: 20px;">تائید</button>
-                                &nbsp &nbsp
-                                <input type="number" name="id" style=" border-radius: 8px; border-style: ridge;">
+                            <span type="text" name="firstname" style=" border-radius: 8px; border-style: ridge;">&nbspقلی&nbsp</span>
+                                <br><br>
+                             &nbsp&nbspنام خانوادگی
+                            <br>
+                            <span type="text" name="lastname" style=" border-radius: 8px; border-style: ridge;">&nbspقلوی&nbsp</span>
                             <br>
                             <br>
+                            &nbsp&nbspکد ملی
+                            <br>
+                            <span style=" border-radius: 8px; border-style: ridge;">&nbsp012345678&nbsp</span>
+                            <br>
+                            <br>
+                            &nbsp&nbspشماره تماس
+                            <br>
+                            <span type="tel" name="tel" style=" border-radius: 8px; border-style: ridge;">&nbsp09123456789&nbsp</span>
+                            <br>
+                            <br>جنسیت
+                            <br>
+                            <span type="radio" name="gender" style=" border-radius: 8px; border-style: ridge;">&nbspپسر&nbsp</span>
+                            <br>
+                            <br>
+                            &nbsp&nbspسن
+                            <br>
+                            <span type="number" name="age" style=" border-radius: 8px; border-style: ridge;">&nbsp10&nbsp</span>
+                            <br>
+                            <br>
+                            &nbsp&nbspآدرس
+                            <br>
+                            <span type="text" name="age" style=" border-radius: 8px; border-style: ridge;">&nbspتهران،خیابان آزادی، نرسیده به میدان آزادی، دانشگاه صنعتی شریف&nbsp</span>
+                            <br>
+                            <br>
+                            &nbsp&nbspشرح نیازها
+                            <br>
+                            <textarea name="need" rows="10" cols="30" style="text-align: right; border-radius: 8px; border-style: ridge;">تغذیه، تحصیل</textarea>
+                            <br>
+                                </p>
+                            <button type="button" class="btn" data-toggle="modal" data-target="#popUpWindow" name="submit" style="text-align:right; color: white; background-color: rgba(121,7,75,0.8); border-radius: 10px; font-size: 28px; border-color: #222222;">ویرایش</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -116,28 +149,43 @@
                                     <!-- header -->
                                     <div class="modal-header">
                                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                        <h3 class="modal-title text-right">درصد تعلیق</h3>
+                                        <h3 class="modal-title text-right">ویرایش مشخصات مددجو</h3>
                                     </div>
 
                                     <!-- body (form) -->
                                     <div class="modal-body">
-                                        <form id="form1" role="form">
-                                            <p style="text-align: right;">
-                                            <label style="text-align: right;">موجودی فعلی</label>
-                                            <br>
-                                            <label style="color: #3f001f; text-align: right;">1000 تومان</label>
-                                            </p>
+                                        <form role="form">
                                             <div class="form-group">
                                                 <input type="text" class="form-control text-right"
-                                                       placeholder="مبلغ">
+                                                       placeholder="قلی">
                                             </div>
                                             <div class="form-group">
-                                                <label for="sel1" style="display:block; text-align:right;">نوع تراکنش
-                                                    با</label>
-                                                <select dir="rtl" class="form-control text-right" id="sell">
-                                                    <option class="text-right" value="val1">برداشت</option>
-                                                    <option value="val2">واریز</option>
-                                                </select>
+                                                <input type="email" class="form-control text-right"
+                                                       placeholder="قلوی">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="tel" class="form-control text-right"
+                                                       placeholder="012345678">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control text-right"
+                                                       placeholder="09123456789">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control text-right"
+                                                       placeholder="پسر">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control text-right"
+                                                       placeholder="10">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control text-right"
+                                                       placeholder="تهران،خیابان آزادی،نرسیده به میدان آزادی،دانشگاه شریف">
+                                            </div>
+                                            <div class="form-group text-right">
+                                                <label for="comment">شرح نیازها</label>
+                                                <textarea class="form-control" rows="5" id="comment" style="text-align: right;">تغذیه،تحصیل</textarea>
                                             </div>
 
                                         </form>
@@ -152,30 +200,12 @@
                             </div>
                         </div>
 
-
     <!--menue toggle script-->
     <script>
         $("#menu-toggle").click(function (e) {
             e.preventDefault();
             $("#wrapper").toggleClass("menuDisplayed")
         });
-        function f() {
-            if(document.getElementById('sel1').value == "val2") {
-                console.log("hi");
-            window.alert("hi");
-            var myDiv = document.getElementById("form1");
-            var array = ["تجارت","ملت","جاری"];
-            var selectList = document.createElement("select");
-            selectList.id = "mySelect";
-            myDiv.appendChild(selectList);
-            for (var i = 0; i < array.length; i++) {
-            var option = document.createElement("option");
-            option.value = array[i];
-            option.text = array[i];
-            selectList.appendChild(option);
-             }
-            }
-         }
     </script>
 </div>
 
