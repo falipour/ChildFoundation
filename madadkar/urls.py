@@ -1,14 +1,14 @@
 from django.conf.urls import url, include
 from django.urls import path
 from .views import *
-import madadkar
+import madadkar.views
 
 urlpatterns = [
     path('', madadkar.views.madadkarhome, name='madadkar-home'),
     path('goals/', madadkar.views.madadkargoal, name='madadkar-goals'),
     path('history/', madadkar.views.madadkarhistory, name='madadkar-history'),
     path('chart/', madadkar.views.madadkarchart, name='madadkar-chart'),
-    path('contact/', madadkar.views.madadkarcontact, name='madadkar-contact'),
+    path('contact/', MadadkarContact.as_view(), name='madadkar-contact'),
     path('profile/',madadkar.views.madadkarprofile,name='madadkar-profile'),
     path('editmadadju/',madadkar.views.editmadadju,name='madadkar-edit-madadju'),
     path('editneed/',madadkar.views.editneed,name='editneed'),
