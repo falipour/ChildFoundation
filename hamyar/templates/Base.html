@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>ارتباط با مددجو</title>
+    <title>{% block title %}همیار{% endblock %}{</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -38,7 +38,7 @@
                 </ul>
                 <span class="pull-right">
             <ul class="nav navbar-nav">
-                <li><a href="Contact-Hamyar.html" style="color:#7a0134; font-family: 'B Nazanin'; font-size: 20px; alignment: right;"
+                <li><a href="#" style="color:#7a0134; font-family: 'B Nazanin'; font-size: 20px; alignment: right;"
                        onMouseOver="this.style.color='#230007';"
                        onMouseOut="this.style.color='#7a0134'; ">ارتباط با ما</a></li>
                 <li class="dropdown">
@@ -50,12 +50,12 @@
                 style="text-align: right; color:#7a0134; font-family: 'B Nazanin'; font-size: 20px; alignment: right;"
                 onMouseOver="this.style.color='#230007'; this.style.fontWeight='bold';"
                 onMouseOut="this.style.color='#7a0134'; this.style.fontWeight='normal'">
-              <li><a href="History-Hamyar.html">تاریخچه</a></li>
-              <li><a href="Chart-Hamyar.html">چارت سازمانی</a></li>
-              <li><a href="Goals-Hamyar.html">اهداف و دیدگاه ها</a></li>
+              <li><a href="../Viewer/History.html">تاریخچه</a></li>
+              <li><a href="../Viewer/Chart.html">چارت سازمانی</a></li>
+              <li><a href="../Viewer/Goals.html">اهداف و دیدگاه ها</a></li>
             </ul>
             </li>
-                <li class="active"><a href="Home-Hamyar.html"
+                <li class="active"><a href="../Viewer/Home.html"
                                       style="color:#7a0134; font-family: 'B Nazanin'; font-size: 20px; alignment: right;"
                                       onMouseOver="this.style.color='#230007';"
                                       onMouseOut="this.style.color='#7a0134';">بنیاد کودک</a></li>
@@ -70,6 +70,7 @@
 
         </div>
     </nav>
+
     <!--sidebar-->
     <div id="sidebar-wrapper">
         <ul class="sidebar-nav" style="font-family: 'B Mitra'; font-size: 20px; text-align: right;">
@@ -84,61 +85,8 @@
             <li><a href="vojoohepardakhti.html"> &nbsp &nbsp گزارش وجوه پرداختی &nbsp &nbsp </a></li>
             <li><a href="receipt.html"> &nbsp &nbsp لیست رسیدها &nbsp &nbsp </a></li>
             <li><a href="search.html"> &nbsp &nbsp جست و جو &nbsp &nbsp </a></li>
-            <li><a href="../../MySite/templates/MySite/Chart.html"> &nbsp &nbsp خروج &nbsp &nbsp </a></li>
+            <li><a href="../Viewer/Chart.html"> &nbsp &nbsp خروج &nbsp &nbsp </a></li>
         </ul>
-    </div>
-
-
-    <!--page content-->
-    <div id="page-content-wrapper" class="offset8">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div style="background-color: white; margin: 5%; padding: 5%; border-radius: 10px; text-align: right;">
-                        <h3 style="font-family: 'B Nazanin';">ارتباط با مددجو</h3>
-                        <br>
-                        <form style="font-family: 'B Nazanin'; font-size: 20px;">
-                            <p style="color: #7a0134;"> &nbsp&nbspنام کاربری مددجو
-                                <br>
-                                <button type="button" class="btn" data-toggle="modal" data-target="#popUpWindow"
-                                        style="color: white; background-color: #3f001f; border-radius: 8px;">تائید
-                                </button>
-                                &nbsp &nbsp
-                                <input type="text" name="id" style=" border-radius: 8px; border-style: ridge;">
-                                <br>
-                                <br>
-
-                            </p>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-    <!--pop-up window-->
-    <div class="modal fade" id="popUpWindow">
-        <div class="modal-dialog">
-            <div class="modal-content">
-
-                <!-- header -->
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h3 class="modal-title text-right">متن پیام</h3>
-                </div>
-
-                <!-- body (form) -->
-                <textarea class="form-control text-right" rows="5" id="comment"></textarea>
-
-                <!-- button -->
-                <div class="modal-footer">
-                    <button class="btn btn-primary btn-block" style="background: #850032">ثبت</button>
-                </div>
-
-            </div>
-        </div>
     </div>
 
 

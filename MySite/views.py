@@ -1,10 +1,6 @@
-from django.shortcuts import render
-from django.contrib.auth import logout as auth_logout
-from django.contrib.auth.models import User
-from django.core.mail import mail_admins, send_mail
-from django.http import HttpResponseRedirect
-from django.shortcuts import render
 from django.views.generic import TemplateView
+from django.shortcuts import render
+from .forms import ContactForm
 
 
 def home(request):
@@ -80,3 +76,21 @@ def contact(request):
 
 class ContactView(TemplateView):
     template_name = 'MySite/Contact.html'
+
+    def get(self, request, **kwargs):
+        form = ContactForm()
+        return render(request, self.template_name, {'form': form})
+
+    def post(self, request):
+        form = ContactForm(request.POST)
+        text = None
+        if form.is_valid():
+            # post = form.save(commit=False)
+            # post.user = request.user
+            # post.save()
+            form.save()
+            text = form.cleaned_data
+            form = ContactForm()
+
+        args = {'form': form, 'text': text}
+        return render(request, self.template_name, args)
