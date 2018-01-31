@@ -73,7 +73,7 @@
     <div id="sidebar-wrapper">
         <ul class="sidebar-nav" style="font-family: 'B Mitra'; font-size: 20px; text-align: right;">
             <li>
-                <button type="button" class="btn" data-toggle="modal" data-target="#Login"
+                <button type="button" class="btn" data-toggle="modal" data-target="#Login" value="ورود"
                         style="color: white; width: 100%; margin: 0;background: #635259 ;font-family: 'B Nazanin'; text-align: right; font-size: 20px">
                     ورود
                 </button>
@@ -92,31 +92,81 @@
         <div class="modal-dialog">
             <div class="modal-content">
 
-                <!-- header -->
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h3 class="modal-title text-right">ورود</h3>
-                </div>
-
-                <!-- body (form) -->
-                <div class="modal-body">
-                    <form role="form">
-                        <div class="form-group">
-                            <input type="text" class="form-control text-right"
-                                   placeholder="نام کاربری">
+                <form class="well form-horizontal text-right" action="" method="post" id="login_form">{% csrf_token %}
+                    <fieldset>
+                        <legend><h2><b>ورود به سایت</b></h2></legend>
+                        <br>
+                        {% if type == 'login' and message %}
+                            <div class="text-danger"> <p style="direction: rtl">{{ form.errors.value }} {{ message }} </p></div>
+                        {% endif %}
+                        <div class="form-group {% if form.username.errors and type == 'login' %}has-error{% endif %}">
+                            <div class="col-md-12 inputGroupContainer">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                    <input type="text" name="username" id="username" tabindex="1"
+                                           class="form-control" placeholder="نام کاربری"
+                                           value="{% if type == 'login' and form8 %} {{ form.username.value }} {% endif %}">
+                                </div>
+                            </div>
+                            {% if form.username.errors and type == 'login' %}
+                                <span class="text-danger" style="text-align:center;">
+                    {% for error in form.username.errors %}{{ error }}{% endfor %}
+                                </span>
+                            {% endif %}
                         </div>
+                        {% if type != 'forger_password' %}
+                            <div class="form-group {% if form.password.errors and type == 'login' %}has-error{% endif %}">
+                                <div class="col-md-12 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                        <input type="password" name="password" id="password" tabindex="2"
+                                               class="form-control" placeholder="رمز">
+                                    </div>
+                                </div>
+                                {% if form.password.errors and type == 'login' %}
+                                    <span class="text-danger" style="text-align:center;">
+                    {% for error in form.password.errors %}{{ error }}{% endfor %}
+                                    </span>
+                                {% endif %}
+                            </div>
+                        {% endif %}
                         <div class="form-group">
-                            <input type="password" class="form-control text-right"
-                                   placeholder="رمز عبور">
+                            <div class="row">
+                                <div class="col-sm-6 col-sm-offset-3">
+                                    {% if type != 'forget_password' %}
+                                        <input type="submit" name="submit" id="login-submit" tabindex="4"
+                                               class="form-control btn btn-login " value="ورود" placeholder="ورود">
+                                    {% endif %}
+                                </div>
+                            </div>
                         </div>
+                    </fieldset>
 
-                    </form>
-                </div>
-
-                <!-- button -->
-                <div class="modal-footer">
-                    <button class="btn btn-primary btn-block" style="background: #850032">ورود</button>
-                </div>
+                    {#                        <!-- header -->#}
+                    {#                        <div class="modal-header">#}
+                    {#                            <button type="button" class="close" data-dismiss="modal">&times;</button>#}
+                    {#                            <h3 class="modal-title text-right">ورود</h3>#}
+                    {#                        </div>#}
+                    {##}
+                    {#                        <!-- body (form) -->#}
+                    {#                        <div class="modal-body">#}
+                    {#                            <form role="form">#}
+                    {#                                <div class="form-group">#}
+                    {#                                    <input type="text" class="form-control text-right"#}
+                    {#                                           placeholder="نام کاربری">#}
+                    {#                                </div>#}
+                    {#                                <div class="form-group">#}
+                    {#                                    <input type="password" class="form-control text-right"#}
+                    {#                                           placeholder="رمز عبور">#}
+                    {#                                </div>#}
+                    {##}
+                    {#                            </form>#}
+                    {#                        </div>#}
+                    {##}
+                    {#                        <!-- button -->#}
+                    {#                        <div class="modal-footer">#}
+                    {#                            <button class="btn btn-primary btn-block" style="background: #850032">ورود</button>#}
+                    {#                        </div>#}
 
             </div>
         </div>

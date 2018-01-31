@@ -7,6 +7,6 @@ urlpatterns = [
     path('history/', AdminHistoryView.as_view(), name='admin-history'),
     path('chart/', AdminChartView.as_view(), name='admin-chart'),
     path('contact/', AdminContactView.as_view(), name='admin-contact'),
-    path('madadkar-register/', AdminMadadkarRegisterView.as_view(), name='admin-madadkar-register'),
+    # path('madadkar-register/', AdminMadadkarRegisterView.as_view(), name='admin-madadkar-register'),
     # path()
 ]

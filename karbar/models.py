@@ -3,11 +3,7 @@ from django.contrib.auth.models import User
 
 
 class MyUser(models.Model):
-    username = models.CharField(max_length=30, primary_key=True, default='')
-    first_name = models.CharField(max_length=30, default='')
-    last_name = models.CharField(max_length=30, default='')
-    email = models.EmailField(default='')
-    password = models.CharField(max_length=10, default='')
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
     national_id = models.IntegerField(unique=True, blank=True)
 
     # address
@@ -17,4 +13,7 @@ class MyUser(models.Model):
     postal_code = models.IntegerField()
 
     phone_number = models.IntegerField()
+
+    def __str__(self):
+        return self.user.first_name + " " + self.user.last_name
 
